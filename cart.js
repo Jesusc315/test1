@@ -30,15 +30,19 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     });
 
-  function addToCart(id) {
-    let cart = JSON.parse(localStorage.getItem("cart")) || [];
-    const index = cart.findIndex((item) => item.id == id);
-    if (index > -1) {
-      cart[index].quantity += 1;
-    } else {
-      cart.push({ id: parseInt(id), quantity: 1 });
+    function addToCart(id) {
+      const cart = JSON.parse(localStorage.getItem("cart")) || [];
+      const index = cart.findIndex(item => item.id === id);
+    
+      if (index !== -1) {
+        cart[index].quantity += 1;
+      } else {
+        cart.push({ id: id, quantity: 1 });
+      }
+    
+      localStorage.setItem("cart", JSON.stringify(cart));
+      updateCartCount(); // Updates the cart count in navbar immediately
     }
-    localStorage.setItem("cart", JSON.stringify(cart));
-    alert("Product added to cart!");
-  }
+    
+    
 });
