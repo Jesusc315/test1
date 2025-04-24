@@ -1,0 +1,66 @@
+[
+    {
+      "id": 1,
+      "name": "Wireless Mouse",
+      "price": 19.99,
+      "description": "Ergonomic wireless mouse with USB receiver.",
+      "image": "images/mouse.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Mechanical Keyboard",
+      "price": 59.99,
+      "description": "RGB mechanical keyboard with blue switches.",
+      "image": "images/keyboard.jpg"
+    },
+    {
+      "id": 3,
+      "name": "USB-C Hub",
+      "price": 25.99,
+      "description": "6-in-1 USB-C hub with HDMI and USB 3.0 ports.",
+      "image": "images/hub.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Noise Cancelling Headphones",
+      "price": 89.99,
+      "description": "Over-ear Bluetooth headphones with ANC.",
+      "image": "images/headphones.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Webcam",
+      "price": 39.99,
+      "description": "1080p HD webcam with built-in microphone.",
+      "image": "images/webcam.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Laptop Stand",
+      "price": 29.99,
+      "description": "Adjustable aluminum laptop stand.",
+      "image": "images/stand.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Smartwatch",
+      "price": 129.99,
+      "description": "Fitness smartwatch with heart-rate monitor.",
+      "image": "images/smartwatch.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Portable Charger",
+      "price": 22.99,
+      "description": "10000mAh power bank with fast charging.",
+      "image": "images/charger.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Bluetooth Speaker",
+      "price": 45.00,
+      "description": "Waterproof Bluetooth speaker with deep bass.",
+      "image": "images/speaker.jpg"
+    }
+  ]
+  
